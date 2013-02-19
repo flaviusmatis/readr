@@ -1,0 +1,140 @@
+/*
+Theme Name: Readr
+Description: Used to style the TinyMCE editor.
+*/
+
+html .mceContentBody {
+	max-width: 600px;
+}
+body {
+	color: #333;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	vertical-align: baseline;
+}
+
+/* =Text elements
+-------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+}
+
+p {
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+cite, em, i {
+	font-style: italic;
+}
+
+
+/* =Links
+-------------------------------------------------------------- */
+
+a,
+a em,
+a strong {
+	color: #DC143C;
+	outline: none;
+	text-decoration: none;
+}
+a:focus,
+a:active,
+a:hover {
+	color: #DC143C;
+	text-decoration: none;
+}
+
+
+/* =Images & Alignment
+-------------------------------------------------------------- */
+
+img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	border: none;
+}
+
+.alignnone {
+	margin: 0;
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.alignright {
+	float:right;
+	margin: 0;
+}
+
+.alignleft {
+	float: left;
+	margin: 0;
+}
+
+a img.alignright {
+	float: right;
+	margin: 0;
+}
+
+a img.alignnone {
+	margin: 0;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
