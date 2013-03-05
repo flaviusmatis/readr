@@ -26,7 +26,7 @@
 
 <body <?php body_class(); ?>>
 
-<div id="page" class="hfeed site <?php echo $readrOptions[style]; ?>">
+<div id="page" class="hfeed site <?php echo $readrOptions['style']; ?>">
 
 	<div id="masthead" class="site-header" role="banner">
 		<div class="header-content">
@@ -42,23 +42,23 @@
                 </div><!-- #secondary -->
             <?php endif; ?>
 			<div class="social-links clearfix">
-				<?php if ($readrOptions[social_facebook]) { ?>
-					<a href="<?php echo $readrOptions[social_facebook]; ?>" target="_blank"><i class="icon-facebook"></i></a>
+				<?php if ($readrOptions['social_facebook']) { ?>
+					<a href="<?php echo $readrOptions['social_facebook']; ?>" target="_blank"><i class="icon-facebook"></i></a>
 	            <?php } ?>
-                <?php if ($readrOptions[social_twitter]) { ?>
-                    <a href="<?php echo $readrOptions[social_twitter]; ?>" target="_blank"><i class="icon-twitter"></i></a>
+                <?php if ($readrOptions['social_twitter']) { ?>
+                    <a href="<?php echo $readrOptions['social_twitter']; ?>" target="_blank"><i class="icon-twitter"></i></a>
                 <?php } ?>
-				<?php if ($readrOptions[social_github]) { ?>
-					<a href="<?php echo $readrOptions[social_github]; ?>" target="_blank"><i class="icon-github"></i></a>
+				<?php if ($readrOptions['social_github']) { ?>
+					<a href="<?php echo $readrOptions['social_github']; ?>" target="_blank"><i class="icon-github"></i></a>
 	            <?php } ?>
-				<?php if ($readrOptions[social_linkedin]) { ?>
-					<a href="<?php echo $readrOptions[social_linkedin]; ?>" target="_blank"><i class="icon-linkedin"></i></a>
+				<?php if ($readrOptions['social_linkedin']) { ?>
+					<a href="<?php echo $readrOptions['social_linkedin']; ?>" target="_blank"><i class="icon-linkedin"></i></a>
 	            <?php } ?>
-				<?php if ($readrOptions[social_pinterest]) { ?>
-					<a href="<?php echo $readrOptions[social_pinterest]; ?>" target="_blank"><i class="icon-pinterest"></i></a>
+				<?php if ($readrOptions['social_pinterest']) { ?>
+					<a href="<?php echo $readrOptions['social_pinterest']; ?>" target="_blank"><i class="icon-pinterest"></i></a>
 	            <?php } ?>
-				<?php if ($readrOptions[social_google]) { ?>
-					<a href="<?php echo $readrOptions[social_google]; ?>" target="_blank"><i class="icon-google-plus"></i></a>
+				<?php if ($readrOptions['social_google']) { ?>
+					<a href="<?php echo $readrOptions['social_google']; ?>" target="_blank"><i class="icon-google-plus"></i></a>
 	            <?php } ?>
 	        </div>
 		</div>
