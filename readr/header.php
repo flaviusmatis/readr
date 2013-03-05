@@ -10,17 +10,16 @@
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width"/>
-<title><?php wp_title( '|', true, 'right' ); ?></title>
-<link rel="profile" href="http://gmpg.org/xfn/11"/>
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/style.css'; ?>"/>
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() . '/font-awesome.min.css'; ?>"/>
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,400italic|Crimson+Text:400,600' type='text/css' rel='stylesheet'/>
-<?php wp_head(); ?>
-</head>
+	<head>
+
+		<meta charset="<?php bloginfo( 'charset' ); ?>" />
+		<meta name="viewport" content="width=device-width"/>
+		<title><?php wp_title( '|', true, 'right' ); ?></title>
+		<link rel="profile" href="http://gmpg.org/xfn/11"/>
+		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
+
+	<?php wp_head(); ?>
+	</head>
 
 <?php $readrOptions = get_option('readr'); ?>
 
