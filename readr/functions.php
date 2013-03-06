@@ -7,7 +7,7 @@ function readr_enqueue_assets(){
   wp_enqueue_style( 'readr_font_awesome', $style_path . '/font-awesome.min.css', array(), 1, 'all' );
   wp_enqueue_style( 'readr_style', $style_path . '/style.css', array('readr_font_awesome', 'readr_custom_font'), 1, 'all' );
 }
-add_action( 'init', 'readr_enqueue_assets' );
+add_action( 'wp_head', 'readr_enqueue_assets' );
 
 /**
  * Sets up the content width value based on the theme's design and stylesheet.
