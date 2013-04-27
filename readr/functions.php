@@ -209,7 +209,7 @@ function readr_comment( $comment, $args, $depth ) {
 }
 endif;
 
-function custom_body_class( $classes ) {
+function readr_custom_body_class( $classes ) {
 	$background_color = get_background_color();
 
 	if ( empty( $background_color ) )
@@ -220,9 +220,9 @@ function custom_body_class( $classes ) {
 	return $classes;
 }
 
-add_filter( 'body_class', 'custom_body_class' );
+add_filter( 'body_class', 'readr_custom_body_class' );
 
-function custom_search_form( $form ) {
+function readr_custom_search_form( $form ) {
 
     $form = '<form role="search" method="get" id="searchform" action="' . home_url( '/' ) . '" >
 	    <label class="icon-search icon-large" for="s"></label>
@@ -233,7 +233,7 @@ function custom_search_form( $form ) {
     return $form;
 }
 
-add_filter( 'get_search_form', 'custom_search_form' );
+add_filter( 'get_search_form', 'readr_custom_search_form' );
 
 if ( ! function_exists( 'readr_entry_date' ) ) :
 function readr_entry_date() {
@@ -252,15 +252,11 @@ function readr_entry_date() {
 }
 endif;
 
-// Remove the version number of WP
-// Warning - this info is also available in the readme.html file in your root directory - delete this file!
-remove_action('wp_head', 'wp_generator');
-
 // Customise the footer in admin area
-function wpfme_footer_admin () {
+function readr_footer_admin () {
 	echo 'Theme by <a href="http://flaviusmatis.github.com/" target="_blank">Flavius Matis</a>. Powered by <a href="http://wordpress.org" target="_blank">WordPress</a>.';
 }
-add_filter('admin_footer_text', 'wpfme_footer_admin');
+add_filter('admin_footer_text', 'readr_footer_admin');
 
 class Readr_Customize
 {
