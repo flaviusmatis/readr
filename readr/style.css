@@ -216,6 +216,13 @@ a img.aligncenter {
 	position: relative;
 }
 
+.site-header img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	border: none;
+}
+
 /* =============================================================================
    Blog Title & Description
    ========================================================================== */
@@ -223,6 +230,7 @@ a img.aligncenter {
 .site-title {
 	margin: 0 0 5px 0;
 	line-height: 1.1em;
+	overflow: hidden;
 }
 
 .site-title a {
@@ -233,6 +241,7 @@ a img.aligncenter {
 	margin: 0 0 10px 0;
 	font-weight: normal;
 	font-size: 18px;
+	overflow: hidden;
 }
 
 /* =============================================================================
@@ -273,6 +282,8 @@ a img.aligncenter {
 .main-navigation {
 	padding: 10px 0 5px 0;
 	margin: 0;
+	word-wrap: break-word;
+	overflow: hidden;
 }
 
 .main-navigation ul {
@@ -440,6 +451,10 @@ a img.aligncenter {
 
 .comments-link, .comments-link a {
 	color: #333;
+}
+
+.site-content .post {
+	word-wrap: break-word;
 }
 
 .post .entry-meta {
