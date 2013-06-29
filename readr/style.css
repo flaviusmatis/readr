@@ -459,6 +459,7 @@ a img.aligncenter {
 
 .post .entry-meta {
 	border-bottom: 1px dotted #ccc;
+	clear: both;
 }
 
 .post:last-of-type .entry-meta {
