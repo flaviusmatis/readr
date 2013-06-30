@@ -3,7 +3,7 @@ Theme Name: Readr
 Theme URI: http://wordpress.org/extend/themes/readr
 Author: Flavius Matis
 Author URI: http://flaviusmatis.github.com/
-Description: Readr is a minimal responsive theme that focuses on content. The theme comes with two color schemes and easy to customize social links.
+Description: Readr is a minimal responsive theme that focuses on content.
 Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -317,33 +317,6 @@ a img.aligncenter {
 }
 
 /* =============================================================================
-   Social Links
-   ========================================================================== */
-
-.social-links {
-	padding: 0 0 10px 0;
-}
-
-.social-links a {
-	padding: 5px;
-	float: left;
-	width: 30px;
-	height: 25px;
-	margin: 0 5px 5px 0;
-	background: rgba(0,0,0,0.05);
-	text-align: center;
-}
-
-.social-links i {
-	vertical-align: middle;
-	opacity: 0.7;
-}
-
-.social-links a:hover i {
-	opacity: 1;
-}
-
-/* =============================================================================
    Comment Form
    ========================================================================== */
 
@@ -503,10 +476,6 @@ a img.aligncenter {
 
 	.header-content {
 		max-width: none;
-	}
-
-	.social-links i {
-		margin: 0 0 0 5px;
 	}
 
 	.main-navigation {

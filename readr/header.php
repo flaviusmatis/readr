@@ -40,26 +40,6 @@
                     <?php dynamic_sidebar( 'sidebar-1' ); ?>
                 </div><!-- #secondary -->
             <?php endif; ?>
-			<div class="social-links clearfix">
-				<?php if ($readrOptions['social_facebook']) { ?>
-					<a href="<?php echo $readrOptions['social_facebook']; ?>" target="_blank"><i class="icon-facebook"></i></a>
-	            <?php } ?>
-                <?php if ($readrOptions['social_twitter']) { ?>
-                    <a href="<?php echo $readrOptions['social_twitter']; ?>" target="_blank"><i class="icon-twitter"></i></a>
-                <?php } ?>
-				<?php if ($readrOptions['social_github']) { ?>
-					<a href="<?php echo $readrOptions['social_github']; ?>" target="_blank"><i class="icon-github"></i></a>
-	            <?php } ?>
-				<?php if ($readrOptions['social_linkedin']) { ?>
-					<a href="<?php echo $readrOptions['social_linkedin']; ?>" target="_blank"><i class="icon-linkedin"></i></a>
-	            <?php } ?>
-				<?php if ($readrOptions['social_pinterest']) { ?>
-					<a href="<?php echo $readrOptions['social_pinterest']; ?>" target="_blank"><i class="icon-pinterest"></i></a>
-	            <?php } ?>
-				<?php if ($readrOptions['social_google']) { ?>
-					<a href="<?php echo $readrOptions['social_google']; ?>" target="_blank"><i class="icon-google-plus"></i></a>
-	            <?php } ?>
-	        </div>
 		</div>
 	</div>
 
