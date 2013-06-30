@@ -38,6 +38,9 @@ function readr_setup() {
 	// Adds RSS feed links to <head> for posts and comments.
 	add_theme_support( 'automatic-feed-links' );
 
+	// This theme uses wp_nav_menu() in one location.
+    register_nav_menu( 'primary', __( 'Primary Menu', 'readr' ) );
+
 }
 add_action( 'after_setup_theme', 'readr_setup' );
 
