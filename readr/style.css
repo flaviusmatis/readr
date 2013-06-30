@@ -215,6 +215,7 @@ a img.aligncenter {
 	max-width: 600px;
 	margin: 0 auto;
 	position: relative;
+	padding-bottom: 30px;
 }
 
 .site-header img {
