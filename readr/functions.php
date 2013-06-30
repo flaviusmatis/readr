@@ -226,7 +226,7 @@ function readr_custom_search_form( $form ) {
 
     $form = '<form role="search" method="get" id="searchform" action="' . home_url( '/' ) . '" >
 	    <label class="icon-search icon-large" for="s"></label>
-	    <input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="'. esc_attr__('Search') .'"/>
+	    <input type="text" value="' . esc_attr__(get_search_query()) . '" name="s" id="s" placeholder="'. esc_attr__('Search') .'"/>
 	    <input type="submit" id="searchsubmit" value="'. esc_attr__('Search') .'"/>
     </form>';
 
